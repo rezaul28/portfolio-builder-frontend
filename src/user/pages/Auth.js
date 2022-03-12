@@ -23,8 +23,6 @@ const Auth = () => {
   const auth = useContext(AuthContext);
   const [isLoginMode, setIsLoginMode] = useState(true);
   const {isLoading, error, sendRequest, clearError} = useHttpClient();
-  const [err, setErr] = useState(false);
-  const [msg, setMsg] = useState("");
   const [formState, inputHandler, setFormData] = useForm(
     {
       email: {

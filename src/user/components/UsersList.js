@@ -24,6 +24,7 @@ const UsersList = (props) => {
         image={"https://cdn3.iconfinder.com/data/icons/vector-icons-6/96/256-512.png"}
         name={props.items.name}
         email = {props.items.email}
+        verified = {props.items.verified}
         // placeCount={props.items.user.places.length}
       />
     </ul>
